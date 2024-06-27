@@ -1,0 +1,56 @@
+body {
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #f8f9fa;
+}
+
+.background-image-no-repeat,
+.background-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-custom,
+    .btn-warning.btn-lg {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .container {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .section-description {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

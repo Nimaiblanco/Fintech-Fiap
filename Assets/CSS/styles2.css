@@ -1,0 +1,18 @@
+body {
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .logo-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header .logo-title {
+        font-size: 2rem;
+    }
+}
